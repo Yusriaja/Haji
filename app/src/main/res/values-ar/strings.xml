@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أعني</string>
+    <string name="help">مرحباً, كيف لي أن أساعدك</string>
+    <string name="hint" >أضغط على السماعة للبدأ</string>
+    <string name="speech_not_supported">للأسف , جهازك لا يدعم خاصية الصوت </string>
+    <string name="arafat">عرفات</string>
+    <string name="mozdlefa">مزدلفة</string>
+    <string name="arharam_elmaky">الحرم المكي</string>
+    <string name="arharam_elmadany">الحرم المدني</string>
+
+
+    <string name="mohamed">محمد</string>
+    <string name="ahmed">أحمد</string>
+    <string name="mahmoud">محمود</string>
+    <string name="register">إنشاء حساب جديد</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="password">الرقم السري</string>
+    <string name="id_haji">رقم الحاج</string>
+    <string name="empty">من فضلك يجب إكمال جميع الحقول</string>
+
+    <string name="merfat">ميرفت</string>
+</resources>

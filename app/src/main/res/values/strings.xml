@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name" translatable="false">AENI</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="hint" >Tap on mic to start</string>
+    <string name="help">Hello, How can I help you?</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="arafat">Arafat</string>
+    <string name="mozdlefa">Mozdalefa</string>
+    <string name="arharam_elmaky">ALharam_elmaky</string>
+    <string name="arharam_elmadany">ALharam_elmadany</string>
+
+    <string name="mohamed">Mohamed</string>
+    <string name="ahmed">Ahmed</string>
+    <string name="mahmoud">Mahmoud</string>
+    <string name="merfat">Merfat</string>
+    <string name="register">Register New Account</string>
+    <string name="login">Login</string>
+    <string name="password">Psssword</string>
+    <string name="id_haji">Id HAji</string>
+    <string name="empty">Please ,  fill All fields</string>
+
+    <string name="test">how are you</string>
+
+</resources>

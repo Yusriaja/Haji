@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manasatpc.haji.MapsActivity"
+  >
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/voiceInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:forceHasOverlappingRendering="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_above="@+id/btnSpeakContainer"
+        android:background="@android:color/transparent"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/elharam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="elharam"/>
+        <Button
+            android:id="@+id/mena"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+
+            android:text="Mena"/>
+        <Button
+            android:id="@+id/mozdlfa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+
+            android:text="Mozdlfa"/>
+        <Button
+            android:id="@+id/arafa"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="arafa"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btnSpeakContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f5f5f5"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/btnSpeak"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@null"
+            android:padding="16dp"
+            android:scaleType="center"
+            android:src="@mipmap/ic_microphone_2" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnSpeak"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/hint" />
+    </LinearLayout>
+</RelativeLayout>
